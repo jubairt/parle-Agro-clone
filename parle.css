@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    width: 100%;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    background-color: #010b34;
+    box-sizing: border-box;
+
+    
+}
+.navbar-div{
+    width: 100%;
+}
+.parle-img{
+    width: 118.993px;
+    padding: 5px;
+
+}
+
+
+#sidebar{
+    height: auto;
+}
+#offcanvasNavbar{
+    height: auto;
+}
+.sample{
+    color: white;
+    transition: 0.3s;
+}
+.navbar .nav-item .nav-link:hover{
+    color: red;
+}
+
+.main-img-intro{
+    width: 100%;
+    height: auto;
+}
+.main-img-intro-div{
+    width: 100%;
+    padding-top: 61px;
+}
+.center-page1{
+    width: 50%;
+    padding: 150px;
+    text-align: center;
+    background-color: rgb(250, 38, 10);
+    color: white;
+   
+
+}
+.beeverage{
+    font-weight: 1000;
+}
+.img-container{
+    position: relative;
+    top: 50%;
+
+   
+}
+.img-responsive{
+  width: 500px;
+    
+    height: auto;   
+   position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%) rotate(1rad);
+    z-index: 1;
+
+}
+.center-page1 h1{
+    z-index: 3;
+    position: relative;
+}
+
+.center-page2{
+    width: 50%;
+    font-size: 18px;
+    padding: 30px;
+    padding-bottom: 100px;
+   
+    font-weight: 500;
+    
+}
+.beeverage{
+    font-size: 70px;
+    font-weight: 100;
+    font-family: 'EksellDisplayWeb-Small';
+}
+.bottles{
+    width: 100%;
+
+}
+.bottle-div{
+    width: 100%;
+    
+}
+.bottle-div h2{
+    text-align: center;
+    padding: 30px;
+    background-color: black;
+    color: white;
+    margin-bottom: 0;
+    border: none;
+}
+.news-pic{
+    width: 100%;
+    height: 815px;
+}
+.month-parent{
+    width: 100px;
+    position: relative;
+    
+}
+.month{
+    color: white;
+    font-weight: 400;
+   
+    position: absolute;
+    top: 7px;
+    left: 25px;
+    /* text-align: center; */
+
+}
+.btn{
+    float: right;
+   
+}
+.main div{
+  padding-bottom: 15px;
+}
+.info-mail{
+    background-color: rgb(229, 63, 39);
+    text-align: center;
+    padding: 15px;
+    
+    color: white;
+}
+.info-mail a{
+    color: black;
+    text-decoration: none;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.container{
+    font-size: small;
+    padding-top: 38px;
+   
+    padding-bottom: 30px;
+}
+.margin-right{
+    box-sizing: border-box;
+    padding-right: 70px;
+
+}
+/* .container-fluid{
+    display: flex;
+    justify-content: space-between;
+} */
+@media (max-width: 992px) {
+    .offcanvas-body{
+        background-color: #010b34; 
+    }
+    
+}
+@media(min-width:768px) and (max-width:1180px) {
+    .img-responsive{
+        width: 400px;
+
+    }
+
+    
+}
+
+
