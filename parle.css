@@ -5,19 +5,29 @@
 }
 body{
     font-family: sans-serif;
-    width: 100%;
+    
+    
+   
     background-color: black;
     margin: 0;
     padding: 0;
 }
+html{
+    width: 100%;
+}
 .navbar{
     background-color: #010b34;
     box-sizing: border-box;
+    width: auto;
+    overflow: hidden;
+    /* width: 80%; */
+    
 
     
 }
 .navbar-div{
-    width: 100%;
+    
+    overflow: hidden;
 }
 .parle-img{
     width: 118.993px;
@@ -42,11 +52,15 @@ body{
 
 .main-img-intro{
     width: 100%;
-    height: auto;
+   
+  
+    
 }
-.main-img-intro-div{
+.main-div{
     width: 100%;
-    padding-top: 61px;
+   
+    
+    
 }
 .center-page1{
     width: 50%;
@@ -128,8 +142,7 @@ body{
     position: absolute;
     top: 7px;
     left: 25px;
-    /* text-align: center; */
-
+   
 }
 .btn{
     float: right;
@@ -165,10 +178,7 @@ body{
     padding-right: 70px;
 
 }
-/* .container-fluid{
-    display: flex;
-    justify-content: space-between;
-} */
+
 @media (max-width: 992px) {
     .offcanvas-body{
         background-color: #010b34; 
@@ -178,6 +188,14 @@ body{
 @media(min-width:768px) and (max-width:1180px) {
     .img-responsive{
         width: 400px;
+
+    }
+
+    
+}
+@media(max-width:535px) {
+    .img-responsive{
+        width: 200px;
 
     }
 
