@@ -1,6 +1,6 @@
 # Parle Agro Website Clone
 
-A responsive Parle Agro website clone built using HTML, CSS, Bootstrap, and JavaScript featuring modern layouts, responsive design, animations, and interactive UI components. :contentReference[oaicite:0]{index=0}
+A responsive Parle Agro website clone built using HTML, CSS, Bootstrap, and JavaScript featuring modern layouts, responsive design, animations, and interactive UI components.
 
 ---
 
